@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #20B2AA;
+    padding: 20px;
+    text-align: center;
+    ;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background: #20B2AA;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: wheat;
+    margin-bottom: 10px;
+}
+
+form {
+    background-color: #20B2AA;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
