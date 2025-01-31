@@ -1,0 +1,96 @@
+body 
+{
+    font-family: sans-serif;
+    background-color: #dacbcb;
+    margin: 0;
+    padding: 50px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+html
+{
+    background-color: #999999;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 
+{
+    font-size: 50px;
+    color: #2a9d8f;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+
+p 
+{
+    font-size: 18px;
+    color: #264653;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+form
+{
+    background-color: #2a9d8f;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+table 
+{
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background-color: rgb(198, 169, 114);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-size: large;
+    color: #264653;
+    
+}
+
+table td 
+{
+    padding: 10px;
+    border-style:initial;
+    border-left: #333;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
+input.txt,
+input.pass 
+{
+    background-color: whitesmoke;
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 0px solid #e76f51;
+    border-radius: 4px;
+}
+
+input.text
+input.password
+{
+    padding: 10px 20px;
+    margin: 5px;
+    border: solid;
+    border-radius: 4px;
+    color: #f0ebeb;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input.submit 
+{
+    text-align: center;
+    background-color: #51e5e7;
+}
+
