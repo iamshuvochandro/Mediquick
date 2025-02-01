@@ -54,7 +54,7 @@ table td {
 }
 input[type="text"],
 input[type="email"],
-input[type="tel"],
+input[type="phone"],
 input[type="password"],
 input[type="date"],
 input[type="number"],
@@ -65,12 +65,6 @@ select {
     border-radius: 5px;
     box-sizing: border-box;
     font-size: 14px;
-}
-
-/* Placeholder Styling */
-input::placeholder {
-    color: #aaa;
-    font-style: italic;
 }
 
 /* Radio Buttons */
