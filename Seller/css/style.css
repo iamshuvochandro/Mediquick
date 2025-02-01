@@ -1,0 +1,79 @@
+/* External CSS File */
+
+/* Selectors */
+h1 {
+    font-family: Arial, sans-serif;
+    color: #4CAF50;
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.table-class {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+}
+
+.table-class th, .table-class td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Box Model */
+.box {
+    border: 2px solid #4CAF50;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* Positioning */
+.relative-box {
+    position: relative;
+    left: 20px;
+    top: 10px;
+}
+
+.absolute-box {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    border: 2px solid red;
+    padding: 10px;
+}
+
+.fixed-box {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #f1f1f1;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
