@@ -6,6 +6,7 @@ if (!isset($_SESSION['seller_logged_in']) || $_SESSION['seller_logged_in'] !== t
     exit();
 }
 
+
 $seller_id = $_SESSION['seller_id'];
 
 include '../model/db.php';
