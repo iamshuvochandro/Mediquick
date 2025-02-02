@@ -5,6 +5,7 @@ class db {
     private $dbname = "mediquick";
     private $username = "root";
     private $password = "";
+    
 
     public function openCon() {
         $conn = new mysqli($this->host, $this->username, $this->password, $this->dbname);
