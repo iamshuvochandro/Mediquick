@@ -6,6 +6,7 @@ if (!isset($_SESSION['seller_logged_in']) || $_SESSION['seller_logged_in'] !== t
     exit();
 }
 ?>
+    
 
 <!DOCTYPE html>
 <html>
