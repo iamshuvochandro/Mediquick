@@ -3,6 +3,7 @@ require '../Control/S_Profile_C.php';
 ?>
 
 <!DOCTYPE html>
+
 <html>
 <head>
     <title>Seller Profile</title>
