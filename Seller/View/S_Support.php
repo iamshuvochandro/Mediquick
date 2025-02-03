@@ -4,6 +4,7 @@ session_start();
 if (!isset($_SESSION['seller_logged_in']) || $_SESSION['seller_logged_in'] !== true) {
     header("Location: S_Login.php");
     exit();
+    
 }
 
 $seller_name = $_SESSION['seller_name'];
