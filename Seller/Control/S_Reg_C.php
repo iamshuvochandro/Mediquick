@@ -10,6 +10,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $seller_name = isset($_POST['seller_name']) ? $_POST['seller_name'] : null;
     $email = isset($_POST['email']) ? $_POST['email'] : null;
     $password = isset($_POST['password']) ? password_hash($_POST['password'], PASSWORD_DEFAULT) : null; // Hash the password
+    
 
     if ($seller_name && $email && $password) {
         $table = "seller";
