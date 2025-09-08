@@ -1,3 +1,1 @@
-#MediQuick
-
-MediQuick is the Pharmatical Management System. 
+ Pharmatical Management System. 
